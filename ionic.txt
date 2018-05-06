@@ -1,0 +1,16 @@
+Setps to setup ionic and creating apk
+
+1.install nodejs 8.11.1
+
+2.npm install -g ionic
+
+3.go to desired location in ur pc and run the command>> ionic start myApp tabs.
+
+4.go to the project home location.
+
+5.run command>> cordova platform add android
+
+6.After previous steps run>> ionic cordova build android --prod
+
+7.apk would be creted and the location would be printed on console.
+
